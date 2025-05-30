@@ -12,11 +12,11 @@ archivo = sys.argv[1]
 with open(archivo, "r", encoding = "utf-8") as f:
     texto = f.read()
 
-total_letras = texto.replace(" ","")
+total_letras = texto
 total_palabras = texto.split()
 
 distintos = set(total_letras)
 palabras_distintas = set(total_palabras)
 
-print(len(distintos))
-print(len(palabras_distintas))
+print(f"El número de caracteres distintos es: {len(distintos)}")
+print(f"El número de palabras distinas es : {len(palabras_distintas)}")
