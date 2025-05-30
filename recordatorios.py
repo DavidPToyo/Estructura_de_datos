@@ -7,11 +7,15 @@ recordatorios = [['2021-01-01', "11:00", "Levantarse y ejercitar"],
  ['2021-12-25', "00:00", "Navidad"]]
 
 
-recordatorios += (['2021-01-02', "06:00", "Empezar el año"],['2021-12-24', "22:00", "Cena de Navidad"],['2021-12-31', "22:00", "Cena de Año Nuevo"])
+recordatorios.append(['2021-01-02', "06:00", "Empezar el año"])
 
 recordatorios[2][0] = "2021-07-16"
 
 recordatorios.pop(1)
+
+recordatorios.append(['2021-12-24', "22:00", "Cena de Navidad"])
+
+recordatorios.append(['2021-12-31', "22:00", "Cena de Año Nuevo"])
 
 recordatorios.sort()
 # Output
