@@ -4,7 +4,7 @@ import sys
 
 # Sol peruano = 0.0046
 # Peso Argentino = 0.093
-# Dolar americano = 0.0011
+# Dolar americano = 0.0013
 
 
 if len(sys.argv) != 5:
